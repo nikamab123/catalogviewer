@@ -1,0 +1,92 @@
+const styles = {
+    container:{
+        width:"100%",
+        height:"100vh",
+        display:'flex',
+        flexDirection:'column',
+        alignContent:"center",
+    },
+    topContainer:{
+        width: "100%",
+        display: "flex",
+        flexDirection: "row",
+        flexWrap: "wrap",
+      },
+      imgContainer:{
+        width: "50%",
+        height: "350px",
+        display: "flex",
+        margin: "10px",
+        borderRadius: "10px",
+        minWidth: "320px",
+      },
+      img:{ borderRadius: "20px", width: "100%", height: "95%" },
+      desc:{
+        width: "43%",
+        display: "flex",
+        flexDirection: "column",
+        margin: "10px",
+        marginX: "20px",
+        height: "65vh",
+        alignContent: "center",
+        minWidth: "320px",
+      },
+      title:{
+        fontFamily: "poppins",
+        color: "#707070",
+        textAlign: "left",
+        fontWeight: 700,
+        fontSize: "20px",
+      },
+      txtbox:{
+        display: "flex",
+        height: "58vh",
+        overflow: "scroll",
+        overflowX: "hidden",
+      },
+      txt:{
+        fontFamily: "poppins",
+        color: "#707070",
+        textAlign: "left",
+        fontSize: "16px",
+      },
+      bottomContainer:{
+        height: "25vh",
+        width: "100%",
+        display: "flex",
+        flexWrap: "wrap",
+        flexDirection: "row",
+        margin: "auto",
+        alignItems: "center",
+        justifyContent: "center",
+      },
+      cards:{
+        width: "70%",
+        display: "flex",
+        flexDirection: "row",
+        alignItems: "center",
+        minWidth: "320px",
+      },
+      scrollbar:{
+        width: "65%",
+        display: "flex",
+        flexDirection: "row",
+        overflow: "scroll",
+        overflowY: "hidden",
+        margin: "10px",
+      },
+      cardBox:{ minWidth: "125px", height: "105px", margin: "10px" },
+      bottomRight:{
+        width: "20%",
+        display: "flex",
+        alignItems: "center",
+        minWidth: "320px",
+        marginX:'auto',
+        justifySelf: "center",
+        "&:hover": { cursor: "pointer" },
+      },
+    
+
+}
+
+export default styles;
